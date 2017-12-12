@@ -1,0 +1,186 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\ODB-II\OBD-II程序\2014.02.08V1.0\USER\OBD-II-V1.0.uvproj
+Project File Date:  10/29/2014
+
+<h2>Output:</h2>
+Build target 'OBD-II-V1.0'
+linking...
+Program Size: Code=41468 RO-data=1164 RW-data=332 ZI-data=11972  
+FromELF: creating hex file...
+"..\OBJ\OBD-II-V1.0" - 0 Errors, 0 Warning(s).
+Build target 'OBD-II-V1.0'
+compiling main.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+compiling Test.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+compiling timer2.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+compiling usart.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+..\HARDWARE\usart.c(908): warning:  #550-D: variable "data_change1" was set but never used
+compiling debug.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+..\HARDWARE\debug.c(65): warning:  #177-D: variable "len_tem" was declared but never referenced
+..\HARDWARE\debug.c(66): warning:  #177-D: variable "dou_temp" was declared but never referenced
+compiling GSM.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+..\HARDWARE\GSM.c(410): warning:  #177-D: variable "i" was declared but never referenced
+..\HARDWARE\GSM.c(471): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\HARDWARE\GSM.c(477): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\HARDWARE\GSM.c(490): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\HARDWARE\GSM.c(469): warning:  #177-D: variable "i_len" was declared but never referenced
+..\HARDWARE\GSM.c(470): warning:  #177-D: variable "test_i" was declared but never referenced
+..\HARDWARE\GSM.c(528): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "u8 *"
+..\HARDWARE\GSM.c(824): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\HARDWARE\GSM.c(826): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\HARDWARE\GSM.c(943): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\HARDWARE\GSM.c(962): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\HARDWARE\GSM.c(1015): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\HARDWARE\GSM.c(1019): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\HARDWARE\GSM.c(1009): warning:  #177-D: variable "sendlen_s" was declared but never referenced
+..\HARDWARE\GSM.c(1079): warning:  #167-D: argument of type "volatile u8 *" is incompatible with parameter of type "void *restrict"
+..\HARDWARE\GSM.c(1185): warning:  #223-D: function "Parameter_Set" declared implicitly
+..\HARDWARE\GSM.c(1406): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\HARDWARE\GSM.c(1473): warning:  #111-D: statement is unreachable
+..\HARDWARE\GSM.c(1479): warning:  #260-D: explicit type is missing ("int" assumed)
+compiling OBD.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+..\HARDWARE\OBD.c(362): warning:  #111-D: statement is unreachable
+..\HARDWARE\OBD.c(905): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+..\HARDWARE\OBD.c(1036): warning:  #940-D: missing return statement at end of non-void function "Read_oil_LperH"
+compiling alarm.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+compiling upload.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+..\HARDWARE\upload.c(158): warning:  #177-D: variable "temp_len" was declared but never referenced
+..\HARDWARE\upload.c(238): warning:  #177-D: variable "temp_0x55" was declared but never referenced
+..\HARDWARE\upload.c(323): warning:  #177-D: variable "temp_Head_mesg" was declared but never referenced
+..\HARDWARE\upload.c(362): warning:  #940-D: missing return statement at end of non-void function "Upload_Heart"
+..\HARDWARE\upload.c(412): warning:  #940-D: missing return statement at end of non-void function "Upload_Location"
+compiling exti.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+linking...
+Program Size: Code=41468 RO-data=1164 RW-data=332 ZI-data=11972  
+FromELF: creating hex file...
+"..\OBJ\OBD-II-V1.0" - 0 Errors, 40 Warning(s).
+Load "..\\OBJ\\OBD-II-V1.0" 
+Set JLink Project File to "E:\ODB-II\OBD-II程序\2014.02.08V1.0\USER\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OBD-II-V1.0'
+compiling usart.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+..\HARDWARE\usart.c(908): warning:  #550-D: variable "data_change1" was set but never used
+linking...
+Program Size: Code=41468 RO-data=1164 RW-data=332 ZI-data=11972  
+FromELF: creating hex file...
+"..\OBJ\OBD-II-V1.0" - 0 Errors, 2 Warning(s).
+Load "..\\OBJ\\OBD-II-V1.0" 
+Set JLink Project File to "E:\ODB-II\OBD-II程序\2014.02.08V1.0\USER\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OBD-II-V1.0'
+compiling main.c...
+..\HARDWARE\GSM.h(85): warning:  #1295-D: Deprecated declaration SM_Deal - give arg types
+linking...
+Program Size: Code=41292 RO-data=1148 RW-data=332 ZI-data=11972  
+FromELF: creating hex file...
+"..\OBJ\OBD-II-V1.0" - 0 Errors, 1 Warning(s).
+Load "..\\OBJ\\OBD-II-V1.0" 
+Set JLink Project File to "E:\ODB-II\OBD-II程序\2014.02.08V1.0\USER\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.306V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
